@@ -8,8 +8,7 @@ defmodule MyBroadway.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: MyBroadway.Worker.start_link(arg)
-      # {MyBroadway.Worker, arg}
+      {MyBroadway, []}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
