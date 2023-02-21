@@ -1,3 +1,0 @@
-defmodule MyBroadwayTest do
-
-end
